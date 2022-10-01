@@ -159,5 +159,33 @@ final class TddLeetCodeTests: XCTestCase {
         XCTAssertEqual(result, 95)
     }
     
+    // MARK: - 4, findMedianSortedArrays
+    func test4_1() throws {
+        // Given
+        let sut = Solution4()
+        
+        let nums1 = [1,3]
+        let nums2 = [2]
+        
+        // When
+        let result = sut.findMedianSortedArrays(nums1, nums2)
+        
+        // Then
+        XCTAssertEqual(result, 2.0, accuracy: 0.0001)
+    }
+    
+    func test4_2() throws {
+        // Given
+        let sut = Solution4()
+        
+        let nums1 = [1,2]
+        let nums2 = [3,4]
+        
+        // When
+        let result = sut.findMedianSortedArrays(nums1, nums2)
+        
+        // Then
+        XCTAssertEqual(result, 2.5, accuracy: 0.0001)
+    }
 }
 
