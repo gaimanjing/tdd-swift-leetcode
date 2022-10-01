@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB8587B428E7C83400EEF9C6 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8587B328E7C83400EEF9C6 /* LengthOfLongestSubstring.swift */; };
+		BB8587B528E7C83400EEF9C6 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8587B328E7C83400EEF9C6 /* LengthOfLongestSubstring.swift */; };
 		BBB2748C28E6D3AA0059880A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2748B28E6D3AA0059880A /* main.swift */; };
 		BBB2749928E6D3D60059880A /* TddLeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2749828E6D3D60059880A /* TddLeetCodeTests.swift */; };
 		BBB2749F28E6D4240059880A /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2749E28E6D4240059880A /* TwoSum.swift */; };
@@ -28,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB8587B328E7C83400EEF9C6 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		BBB2748828E6D3AA0059880A /* TddLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TddLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB2748B28E6D3AA0059880A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BBB2749628E6D3D60059880A /* TddLeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TddLeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +97,7 @@
 			children = (
 				BBB2749E28E6D4240059880A /* TwoSum.swift */,
 				BBB274A128E6D76E0059880A /* AddTwoNumbers.swift */,
+				BB8587B328E7C83400EEF9C6 /* LengthOfLongestSubstring.swift */,
 			);
 			path = Top100;
 			sourceTree = "<group>";
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBB274A228E6D76E0059880A /* AddTwoNumbers.swift in Sources */,
+				BB8587B428E7C83400EEF9C6 /* LengthOfLongestSubstring.swift in Sources */,
 				BBB2749F28E6D4240059880A /* TwoSum.swift in Sources */,
 				BBB2748C28E6D3AA0059880A /* main.swift in Sources */,
 			);
@@ -198,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBB274A328E6D76E0059880A /* AddTwoNumbers.swift in Sources */,
+				BB8587B528E7C83400EEF9C6 /* LengthOfLongestSubstring.swift in Sources */,
 				BBB274A028E6D4240059880A /* TwoSum.swift in Sources */,
 				BBB2749928E6D3D60059880A /* TddLeetCodeTests.swift in Sources */,
 			);
