@@ -187,5 +187,45 @@ final class TddLeetCodeTests: XCTestCase {
         // Then
         XCTAssertEqual(result, 2.5, accuracy: 0.0001)
     }
+    
+    // MARK: - 5, longestPalindrome
+    func test5_1() throws {
+        // Given
+        let sut = Solution5()
+        
+        let s = "babad"
+        
+        // When
+        let result = sut.longestPalindrome(s)
+        
+        // Then
+        XCTAssert(result == "bab" || result == "aba")
+    }
+    
+    func test5_2() throws {
+        // Given
+        let sut = Solution5()
+        
+        let s = "cbbd"
+        
+        // When
+        let result = sut.longestPalindrome(s)
+        
+        // Then
+        XCTAssert(result == "bb")
+    }
+    
+    func test5_3() throws {
+        // Given
+        let sut = Solution5()
+        
+        let s = "ac"
+        
+        // When
+        let result = sut.longestPalindrome(s)
+        
+        // Then
+        XCTAssert(result == "a" || result == "c")
+    }
 }
 
