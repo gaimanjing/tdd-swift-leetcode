@@ -227,5 +227,47 @@ final class TddLeetCodeTests: XCTestCase {
         // Then
         XCTAssert(result == "a" || result == "c")
     }
+    
+    // MARK: - 10, is match
+    func test10_1() throws {
+        // Given
+        let sut = Solution10()
+        
+        let s = "aa"
+        let p = "a"
+        
+        // When
+        let result = sut.isMatch(s, p)
+        
+        // Then
+        XCTAssertFalse(result)
+    }
+    
+    func test10_2() throws {
+        // Given
+        let sut = Solution10()
+        
+        let s = "aa"
+        let p = "a*"
+        
+        // When
+        let result = sut.isMatch(s, p)
+        
+        // Then
+        XCTAssertTrue(result)
+    }
+    func test10_3() throws {
+        // Given
+        let sut = Solution10()
+        
+        let s = "ab"
+        let p = ".*"
+        
+        // When
+        let result = sut.isMatch(s, p)
+        
+        // Then
+        XCTAssertTrue(result)
+    }
 }
 
