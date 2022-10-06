@@ -10,6 +10,7 @@
 		BB084ECC28E9102300565EAB /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB084ECB28E9102300565EAB /* LongestPalindrome.swift */; };
 		BB084ECD28E9102300565EAB /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB084ECB28E9102300565EAB /* LongestPalindrome.swift */; };
 		BB4D38E328EE930800CBA186 /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D38E228EE930800CBA186 /* LetterCombinations.swift */; };
+		BB4D38E428EE941000CBA186 /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D38E228EE930800CBA186 /* LetterCombinations.swift */; };
 		BB8587B428E7C83400EEF9C6 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8587B328E7C83400EEF9C6 /* LengthOfLongestSubstring.swift */; };
 		BB8587B528E7C83400EEF9C6 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8587B328E7C83400EEF9C6 /* LengthOfLongestSubstring.swift */; };
 		BB8587BA28E84C3400EEF9C6 /* FindMedianSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8587B928E84C3400EEF9C6 /* FindMedianSortedArrays.swift */; };
@@ -240,6 +241,7 @@
 				BBB2749928E6D3D60059880A /* TddLeetCodeTests.swift in Sources */,
 				BB084ECD28E9102300565EAB /* LongestPalindrome.swift in Sources */,
 				BBA7F9A928EE526300B7ED76 /* MaxArea.swift in Sources */,
+				BB4D38E428EE941000CBA186 /* LetterCombinations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -415,6 +415,45 @@ final class TddLeetCodeTests: XCTestCase {
         // Then
         XCTAssertEqual(result, [[-4,0,4],[-4,1,3],[-3,-1,4],[-3,0,3],[-3,1,2],[-2,-1,3],[-2,0,2],[-1,-1,2],[-1,0,1]])
     }
+    
+    func test17_1() throws {
+        // Given
+        let sut = Solution17()
+        
+        let digits = "23"
+        
+        // When
+        let result = sut.letterCombinations(digits)
+        
+        // Then
+        XCTAssertEqual(result, ["ad","ae","af","bd","be","bf","cd","ce","cf"])
+    }
+        
+    func test17_2() throws {
+        // Given
+        let sut = Solution17()
+        
+        let digits = ""
+        
+        // When
+        let result = sut.letterCombinations(digits)
+        
+        // Then
+        XCTAssertEqual(result, [])
+    }
+    
+    func test17_3() throws {
+        // Given
+        let sut = Solution17()
+        
+        let digits = "2"
+        
+        // When
+        let result = sut.letterCombinations(digits)
+        
+        // Then
+        XCTAssertEqual(result, ["a","b","c"])
+    }
 }
 
 
