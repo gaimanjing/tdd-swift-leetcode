@@ -487,5 +487,45 @@ final class TddLeetCodeTests: XCTestCase {
         // Then
         XCTAssertEqual(resultList, createList(intArray: result))
     }
+    
+    // MARK: - 20, has valid ()[]{}
+    func test20_1() throws {
+        // Given
+        let sut = Solution20()
+        
+        let s = "()"
+        
+        // When
+        let result = sut.isValid(s)
+        
+        // Then
+        XCTAssertEqual(result, true)
+    }
+    
+    func test20_2() throws {
+        // Given
+        let sut = Solution20()
+        
+        let s = "()[]{}"
+        
+        // When
+        let result = sut.isValid(s)
+        
+        // Then
+        XCTAssertEqual(result, true)
+    }
+    
+    func test20_3() throws {
+        // Given
+        let sut = Solution20()
+        
+        let s = "(]"
+        
+        // When
+        let result = sut.isValid(s)
+        
+        // Then
+        XCTAssertEqual(result, false)
+    }
 }
 
