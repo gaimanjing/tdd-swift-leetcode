@@ -61,17 +61,6 @@ final class TddLeetCodeTests: XCTestCase {
     }
 
     // MARK: - 2 Add two numbers
-    func createList(intArray: [Int]) -> ListNode? {
-        let result: ListNode? = intArray.map { num in
-            ListNode(num)
-        }.reduce(nil) { partialResult, node in
-            partialResult?.next = node
-            return partialResult
-        }
-        
-        return result
-    }
-    
     func test2_1() throws {
         // Given
         let sut = Solution2()
@@ -455,6 +444,48 @@ final class TddLeetCodeTests: XCTestCase {
         // Then
         XCTAssertEqual(result, ["a","b","c"])
     }
+    
+    // MARK: - 19, removeNthFromEnd
+    func test19_1() throws {
+        // Given
+        let sut = Solution19()
+        
+        let head = [1,2,3,4,5], n = 2
+        let result = [1,2,3,5]
+        
+        // When
+        let resultList = sut.removeNthFromEnd(createList(intArray: head), n)
+        
+        // Then
+        XCTAssertEqual(resultList, createList(intArray: result))
+    }
+    
+    func test19_2() throws {
+        // Given
+        let sut = Solution19()
+        
+        let head = [1], n = 1
+        let result = [Int]()
+        
+        // When
+        let resultList = sut.removeNthFromEnd(createList(intArray: head), n)
+        
+        // Then
+        XCTAssertEqual(resultList, createList(intArray: result))
+    }
+    
+    func test19_3() throws {
+        // Given
+        let sut = Solution19()
+        
+        let head = [1,2], n = 1
+        let result = [1]
+        
+        // When
+        let resultList = sut.removeNthFromEnd(createList(intArray: head), n)
+        
+        // Then
+        XCTAssertEqual(resultList, createList(intArray: result))
+    }
 }
-
 
