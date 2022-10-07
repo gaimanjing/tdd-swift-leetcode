@@ -13,6 +13,8 @@
 		BB02547328EFDA3E00AD509E /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02547128EFDA3E00AD509E /* ListNode.swift */; };
 		BB02547528EFE8B000AD509E /* IsValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02547428EFE8B000AD509E /* IsValid.swift */; };
 		BB02547628EFE8B000AD509E /* IsValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02547428EFE8B000AD509E /* IsValid.swift */; };
+		BB02547828EFEC0200AD509E /* MergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02547728EFEC0200AD509E /* MergeTwoLists.swift */; };
+		BB02547928EFEC0200AD509E /* MergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02547728EFEC0200AD509E /* MergeTwoLists.swift */; };
 		BB084ECC28E9102300565EAB /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB084ECB28E9102300565EAB /* LongestPalindrome.swift */; };
 		BB084ECD28E9102300565EAB /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB084ECB28E9102300565EAB /* LongestPalindrome.swift */; };
 		BB4D38E328EE930800CBA186 /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D38E228EE930800CBA186 /* LetterCombinations.swift */; };
@@ -51,6 +53,7 @@
 		BB02546D28EFD82A00AD509E /* RemoveNthFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthFromEnd.swift; sourceTree = "<group>"; };
 		BB02547128EFDA3E00AD509E /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		BB02547428EFE8B000AD509E /* IsValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValid.swift; sourceTree = "<group>"; };
+		BB02547728EFEC0200AD509E /* MergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLists.swift; sourceTree = "<group>"; };
 		BB084ECB28E9102300565EAB /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 		BB4D38E228EE930800CBA186 /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
 		BB8587B328E7C83400EEF9C6 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
@@ -142,6 +145,7 @@
 				BB4D38E228EE930800CBA186 /* LetterCombinations.swift */,
 				BB02546D28EFD82A00AD509E /* RemoveNthFromEnd.swift */,
 				BB02547428EFE8B000AD509E /* IsValid.swift */,
+				BB02547728EFEC0200AD509E /* MergeTwoLists.swift */,
 			);
 			path = Hot100;
 			sourceTree = "<group>";
@@ -242,6 +246,7 @@
 				BBA7F9A528ED27F600B7ED76 /* IsMatch.swift in Sources */,
 				BBA7F9AB28EE56E600B7ED76 /* ThreeSum.swift in Sources */,
 				BBB2749F28E6D4240059880A /* TwoSum.swift in Sources */,
+				BB02547828EFEC0200AD509E /* MergeTwoLists.swift in Sources */,
 				BBB2748C28E6D3AA0059880A /* main.swift in Sources */,
 				BB084ECC28E9102300565EAB /* LongestPalindrome.swift in Sources */,
 				BBA7F9A828EE526300B7ED76 /* MaxArea.swift in Sources */,
@@ -262,6 +267,7 @@
 				BBA7F9A628ED27F600B7ED76 /* IsMatch.swift in Sources */,
 				BBA7F9AC28EE56E600B7ED76 /* ThreeSum.swift in Sources */,
 				BBB274A028E6D4240059880A /* TwoSum.swift in Sources */,
+				BB02547928EFEC0200AD509E /* MergeTwoLists.swift in Sources */,
 				BBB2749928E6D3D60059880A /* TddLeetCodeTests.swift in Sources */,
 				BB084ECD28E9102300565EAB /* LongestPalindrome.swift in Sources */,
 				BBA7F9A928EE526300B7ED76 /* MaxArea.swift in Sources */,

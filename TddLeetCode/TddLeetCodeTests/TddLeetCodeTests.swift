@@ -527,5 +527,48 @@ final class TddLeetCodeTests: XCTestCase {
         // Then
         XCTAssertEqual(result, false)
     }
+    
+    // MARK: - 21, mergeTwoLists
+    func test21_1() throws {
+        // Given
+        let sut = Solution21()
+        
+        let l1 = [1,2,4], l2 = [1,3,4]
+        let r = [1,1,2,3,4,4]
+        
+        // When
+        let result = sut.mergeTwoLists(createList(intArray: l1), createList(intArray: l2))
+        
+        // Then
+        XCTAssertEqual(createList(intArray: r), result)
+    }
+    
+    func test21_2() throws {
+        // Given
+        let sut = Solution21()
+        
+        let l1 = [Int](), l2 = [Int]()
+        let r = [Int]()
+        
+        // When
+        let result = sut.mergeTwoLists(createList(intArray: l1), createList(intArray: l2))
+        
+        // Then
+        XCTAssertEqual(createList(intArray: r), result)
+    }
+    
+    func test21_3() throws {
+        // Given
+        let sut = Solution21()
+        
+        let l1 = [Int](), l2 = [0]
+        let r = [0]
+        
+        // When
+        let result = sut.mergeTwoLists(createList(intArray: l1), createList(intArray: l2))
+        
+        // Then
+        XCTAssertEqual(createList(intArray: r), result)
+    }
 }
 
