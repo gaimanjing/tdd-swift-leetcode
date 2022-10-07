@@ -570,5 +570,34 @@ final class TddLeetCodeTests: XCTestCase {
         // Then
         XCTAssertEqual(createList(intArray: r), result)
     }
+    
+    // MARK: - 22, generateParenthesis
+    func test22_1() throws {
+        // Given
+        let sut = Solution22()
+        
+        let n = 3
+        let r = ["((()))","(()())","(())()","()(())","()()()"]
+        
+        // When
+        let result = sut.generateParenthesis(n)
+        
+        // Then
+        XCTAssertEqual(r, result)
+    }
+    
+    func test22_2() throws {
+        // Given
+        let sut = Solution22()
+        
+        let n = 1
+        let r = ["()"]
+        
+        // When
+        let result = sut.generateParenthesis(n)
+        
+        // Then
+        XCTAssertEqual(r, result)
+    }
 }
 
