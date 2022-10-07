@@ -599,5 +599,48 @@ final class TddLeetCodeTests: XCTestCase {
         // Then
         XCTAssertEqual(r, result)
     }
+    
+    // MARK: - 23, mergeKLists
+    func test23_1() throws {
+        // Given
+        let sut = Solution23()
+        
+        let lists = [[1,4,5],[1,3,4],[2,6]]
+        let r = [1,1,2,3,4,4,5,6]
+        
+        // When
+        let result = sut.mergeKLists(lists.map({createList(intArray: $0)}))
+        
+        // Then
+        XCTAssertEqual(createList(intArray: r), result)
+    }
+    
+    func test23_2() throws {
+        // Given
+        let sut = Solution23()
+        
+        let lists:[[Int]] = []
+        let r:[Int] = []
+        
+        // When
+        let result = sut.mergeKLists(lists.map({createList(intArray: $0)}))
+        
+        // Then
+        XCTAssertEqual(createList(intArray: r), result)
+    }
+    
+    func test23_3() throws {
+        // Given
+        let sut = Solution23()
+        
+        let lists: [[Int]] = []
+        let r: [Int] = []
+        
+        // When
+        let result = sut.mergeKLists(lists.map({createList(intArray: $0)}))
+        
+        // Then
+        XCTAssertEqual(createList(intArray: r), result)
+    }
 }
 
