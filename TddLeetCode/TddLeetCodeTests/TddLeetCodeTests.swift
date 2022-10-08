@@ -697,5 +697,48 @@ final class TddLeetCodeTests: XCTestCase {
         // Then
         XCTAssertEqual(nums, r)
     }
+    
+    // MARK: - 32, longestValidParentheses
+    func test32_1() throws {
+        // Given
+        let sut = Solution32()
+        
+        let s = "(()"
+        let r = 2
+        
+        // When
+        let result = sut.longestValidParentheses(s)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test32_2() throws {
+        // Given
+        let sut = Solution32()
+        
+        let s = "(()"
+        let r = 2
+        
+        // When
+        let result = sut.longestValidParentheses(s)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test32_3() throws {
+        // Given
+        let sut = Solution32()
+        
+        let s = ""
+        let r = 0
+        
+        // When
+        let result = sut.longestValidParentheses(s)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
 }
 
