@@ -740,5 +740,77 @@ final class TddLeetCodeTests: XCTestCase {
         // Then
         XCTAssertEqual(result, r)
     }
+    
+    // MARK: - 33, search
+    func test33_1() throws {
+        // Given
+        let sut = Solution33()
+        
+        let nums = [4,5,6,7,0,1,2], target = 0
+        let r = 4
+        
+        // When
+        let result = sut.search(nums, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test33_2() throws {
+        // Given
+        let sut = Solution33()
+        
+        let nums = [4,5,6,7,0,1,2], target = 3
+        let r = -1
+        
+        // When
+        let result = sut.search(nums, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test33_3() throws {
+        // Given
+        let sut = Solution33()
+        
+        let nums = [1], target = 0
+        let r = -1
+        
+        // When
+        let result = sut.search(nums, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test33_174() throws {
+        // Given
+        let sut = Solution33()
+        
+        let nums = [5,1,3], target = 5
+        let r = 0
+        
+        // When
+        let result = sut.search(nums, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test33_192() throws {
+        // Given
+        let sut = Solution33()
+        
+        let nums = [3, 1], target = 1
+        let r = 1
+        
+        // When
+        let result = sut.search(nums, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
 }
 
