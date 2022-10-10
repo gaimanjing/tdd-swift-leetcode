@@ -25,6 +25,8 @@
 		BB02548528F1BF6E00AD509E /* LongestValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02548328F1BF6E00AD509E /* LongestValidParentheses.swift */; };
 		BB02548728F30B6600AD509E /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02548628F30B6600AD509E /* Search.swift */; };
 		BB02548828F30B6600AD509E /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02548628F30B6600AD509E /* Search.swift */; };
+		BB02548A28F4611600AD509E /* SearchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02548928F4611600AD509E /* SearchRange.swift */; };
+		BB02548B28F4611600AD509E /* SearchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02548928F4611600AD509E /* SearchRange.swift */; };
 		BB084ECC28E9102300565EAB /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB084ECB28E9102300565EAB /* LongestPalindrome.swift */; };
 		BB084ECD28E9102300565EAB /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB084ECB28E9102300565EAB /* LongestPalindrome.swift */; };
 		BB4D38E328EE930800CBA186 /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D38E228EE930800CBA186 /* LetterCombinations.swift */; };
@@ -69,6 +71,7 @@
 		BB02548028F1A93900AD509E /* NextPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPermutation.swift; sourceTree = "<group>"; };
 		BB02548328F1BF6E00AD509E /* LongestValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestValidParentheses.swift; sourceTree = "<group>"; };
 		BB02548628F30B6600AD509E /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		BB02548928F4611600AD509E /* SearchRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRange.swift; sourceTree = "<group>"; };
 		BB084ECB28E9102300565EAB /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 		BB4D38E228EE930800CBA186 /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
 		BB8587B328E7C83400EEF9C6 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
@@ -166,6 +169,7 @@
 				BB02548028F1A93900AD509E /* NextPermutation.swift */,
 				BB02548328F1BF6E00AD509E /* LongestValidParentheses.swift */,
 				BB02548628F30B6600AD509E /* Search.swift */,
+				BB02548928F4611600AD509E /* SearchRange.swift */,
 			);
 			path = Hot100;
 			sourceTree = "<group>";
@@ -274,6 +278,7 @@
 				BB02548728F30B6600AD509E /* Search.swift in Sources */,
 				BB084ECC28E9102300565EAB /* LongestPalindrome.swift in Sources */,
 				BBA7F9A828EE526300B7ED76 /* MaxArea.swift in Sources */,
+				BB02548A28F4611600AD509E /* SearchRange.swift in Sources */,
 				BB02546E28EFD82A00AD509E /* RemoveNthFromEnd.swift in Sources */,
 				BB4D38E328EE930800CBA186 /* LetterCombinations.swift in Sources */,
 				BB02548128F1A93900AD509E /* NextPermutation.swift in Sources */,
@@ -300,6 +305,7 @@
 				BB02548828F30B6600AD509E /* Search.swift in Sources */,
 				BB084ECD28E9102300565EAB /* LongestPalindrome.swift in Sources */,
 				BBA7F9A928EE526300B7ED76 /* MaxArea.swift in Sources */,
+				BB02548B28F4611600AD509E /* SearchRange.swift in Sources */,
 				BB02546F28EFD82A00AD509E /* RemoveNthFromEnd.swift in Sources */,
 				BB4D38E428EE941000CBA186 /* LetterCombinations.swift in Sources */,
 				BB02548228F1A93900AD509E /* NextPermutation.swift in Sources */,

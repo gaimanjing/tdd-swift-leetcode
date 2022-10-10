@@ -812,5 +812,48 @@ final class TddLeetCodeTests: XCTestCase {
         XCTAssertEqual(result, r)
     }
     
+    // MARK: - 34, searchRange
+    func test34_1() throws {
+        // Given
+        let sut = Solution34()
+        
+        let nums = [5,7,7,8,8,10], target = 8
+        let r = [3,4]
+        
+        // When
+        let result = sut.searchRange(nums, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test34_2() throws {
+        // Given
+        let sut = Solution34()
+        
+        let nums = [5,7,7,8,8,10], target = 6
+        let r = [-1,-1]
+        
+        // When
+        let result = sut.searchRange(nums, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test34_3() throws {
+        // Given
+        let sut = Solution34()
+        
+        let nums = [Int](), target = 0
+        let r = [-1,-1]
+        
+        // When
+        let result = sut.searchRange(nums, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
 }
 
