@@ -855,5 +855,48 @@ final class TddLeetCodeTests: XCTestCase {
         XCTAssertEqual(result, r)
     }
     
+    // MARK: - 39, combinationSum
+    func test39_1() throws {
+        // Given
+        let sut = Solution39()
+        
+        let candidates = [2,3,6,7], target = 7
+        let r = [[2,2,3],[7]]
+        
+        // When
+        let result = sut.combinationSum(candidates, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test39_2() throws {
+        // Given
+        let sut = Solution39()
+        
+        let candidates = [2,3,5], target = 8
+        let r = [[2,2,2,2],[2,3,3],[3,5]]
+        
+        // When
+        let result = sut.combinationSum(candidates, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test39_3() throws {
+        // Given
+        let sut = Solution39()
+        
+        let candidates = [2], target = 1
+        let r: [[Int]] = []
+        
+        // When
+        let result = sut.combinationSum(candidates, target)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
 }
 
