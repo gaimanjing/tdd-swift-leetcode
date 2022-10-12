@@ -898,5 +898,33 @@ final class TddLeetCodeTests: XCTestCase {
         XCTAssertEqual(result, r)
     }
     
+    // MARK: - 42, trap
+    func test42_1() throws {
+        // Given
+        let sut = Solution42()
+        
+        let height = [0,1,0,2,1,0,1,3,2,1,2,1]
+        let r = 6
+        
+        // When
+        let result = sut.trap(height)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test42_2() throws {
+        // Given
+        let sut = Solution42()
+        
+        let height = [4,2,0,3,2,5]
+        let r = 9
+        
+        // When
+        let result = sut.trap(height)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
 }
-
