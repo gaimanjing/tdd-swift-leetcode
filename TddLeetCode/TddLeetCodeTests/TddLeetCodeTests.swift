@@ -927,4 +927,46 @@ final class TddLeetCodeTests: XCTestCase {
         XCTAssertEqual(result, r)
     }
     
+    // MARK: - 46, permute
+    func test46_1() throws {
+        // Given
+        let sut = Solution46()
+        
+        let nums = [1,2,3]
+        let r = [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+        
+        // When
+        let result = sut.permute(nums)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test46_2() throws {
+        // Given
+        let sut = Solution46()
+        
+        let nums = [0,1]
+        let r = [[0,1],[1,0]]
+        
+        // When
+        let result = sut.permute(nums)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
+    
+    func test46_3() throws {
+        // Given
+        let sut = Solution46()
+        
+        let nums = [1]
+        let r = [[1]]
+        
+        // When
+        let result = sut.permute(nums)
+        
+        // Then
+        XCTAssertEqual(result, r)
+    }
 }
